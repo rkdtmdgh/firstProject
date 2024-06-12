@@ -1,0 +1,122 @@
+/* status modal */
+div.status_modal_bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+
+div.status_modal_bg div.status_modal_box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 300px;
+    height: 300px;
+    overflow-y: auto;
+    border-radius: 7px;
+    border: 15px solid #fff;
+}
+
+div.status_modal_box div.status_modal_title {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dadada;
+    position: sticky; /* 상단에 고정되도록 변경 */
+    top: 0; /* 상단에 고정되도록 변경 */
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.status_modal_box div.status_modal_title h5 {
+    text-align: center;
+    width: 100%;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+div.status_modal_box div.status_modal_title ul.status_modal_close {
+    width: 20px;
+    height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+div.status_modal_box div.status_modal_title ul.status_modal_close li {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    transform-origin: center;
+    position: absolute;
+    top: 9px;
+}
+
+div.status_modal_box div.status_modal_title ul.status_modal_close li:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+div.status_modal_box div.status_modal_title ul.status_modal_close li:nth-child(2) {
+    transform: rotate(-45deg);
+}
+
+div.status_modal_box div.status_modal_title ul.status_modal_close:hover {
+    cursor: pointer;
+}
+
+div.status_modal_box table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+div.status_modal_box table thead {
+    background-color: #eee;
+    position: sticky; /* 상단에 고정되도록 변경 */
+    top: 40px; /* 상단에 고정되도록 변경 */
+}
+
+div.status_modal_box table thead th {
+    padding: 10px;
+    width: 150px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+div.status_modal_box table tbody td {
+    color: #000;
+    background-color: #fff;
+    padding: 5px 0;
+    border: 2px solid #000;
+}
+
+div.status_modal_box table tbody td:nth-child(odd) {
+    text-align: left;
+}
+
+div.status_modal_box table tbody td div.item_img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+div.status_modal_box table tbody td div.item_img img {
+    width: 100%;
+}

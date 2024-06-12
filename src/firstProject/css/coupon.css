@@ -1,0 +1,33 @@
+div.coupon_wrap {
+    width: 490px;
+    height: 50px;
+    background-image: url('../../../public/resources/pjt_game/imgs/coupon.png');
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+div.coupon_wrap input {
+    width: 210px;
+    padding: 7px;
+    font-size: .5em;
+    position: absolute;
+    top: 12px;
+    left: 140px;
+}
+
+div.coupon_wrap button {
+    padding: 5px 10px;
+    background-color: #000;
+    color: #eee;
+    position: absolute;
+    top: 10px;
+    left: 390px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

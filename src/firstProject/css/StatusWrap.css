@@ -1,0 +1,43 @@
+/* status wrap */
+#wrap div.status_wrap {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#wrap div.status_wrap div.sign_ined_id {
+    padding: 5px 10px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 10px;
+}
+
+#wrap div.status_wrap div.sign_ined_id span {
+    font-weight: bold;
+}
+
+#wrap div.status_wrap div.current_coins {
+    padding: 5px 10px;
+}
+
+#wrap div.status_wrap div.accumulated_coins {
+    padding: 5px 10px;
+}
+
+#wrap div.status_wrap button.search_items_btn {
+    padding: 5px 30px;
+    background-color: #000;
+    color: #fff;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

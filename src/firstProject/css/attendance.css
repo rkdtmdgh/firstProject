@@ -1,0 +1,188 @@
+/* Wrap ------------------------------------------------------------------------------------------------------------- */
+
+/* 모달 bg */
+div.att_modal_bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 100;
+}
+
+/* 배너 */
+div.att_banner {
+    position: absolute;
+    top: 125px;
+    right: 0;
+}
+
+div.att_banner img {
+    max-width: 400px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+/* 컨테이너 */
+div.attendance_wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 730px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+}
+
+/* 타이틀 글씨 */
+div.attendance_wrap p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 수령하기 버튼 */
+div.attendance_wrap button.att_btn {
+    margin-top: 40px;
+    padding: 10px 60px;
+    background-color: #3C206D;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/* 닫기 버튼 */
+div.attendance_wrap button.close_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+/* 출석체크 캘린더 컨테이너  -------------------------------------------------------------------------------------------------------------*/
+
+/* 캘린더 컨테이너 */
+div.attendance_calender {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid #3C206D;
+    box-sizing: border-box;
+}
+
+/* td (행) */
+div.attendance_calender td {
+    width: 130px;
+}
+
+/* 체크표시 */
+div.attendance_calender div.check {
+    position: absolute;
+}
+
+div.attendance_calender div.check img {
+    width: 650px;
+    position: relative;
+    left: -5px;
+    top: -565px;
+}
+
+/* 캘린더 날짜별 셀 --------------------------------------------------------------------------------------------------------------- */
+div.attendance_day_item li {
+    border-right: 1px solid #3C206D;
+}
+
+div.attendance_day_item li:nth-child(1) {
+    background-color: #3C206D;
+    height: 30px;
+    line-height: 30px;
+}
+
+div.attendance_day_item li:nth-child(2) {
+    background-color: rgba(255, 255, 255, .2);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.attendance_day_item li:nth-child(3) {
+    background-color: rgba(255, 255, 255, .2);
+    height: 30px;
+    color: #fff;
+}
+
+/* 체크표시  ---------------------------------------------------------------------------------------------------------------*/
+div.att_check_wrap {
+    position: absolute;
+    margin: 0 39px;
+}
+
+div.att_check_wrap li:nth-child(1),
+div.att_check_wrap li:nth-child(2),
+div.att_check_wrap li:nth-child(3),
+div.att_check_wrap li:nth-child(4),
+div.att_check_wrap li:nth-child(5) {
+    float: left;
+    position: relative;
+    top: -615px;
+    width: 130px;
+    margin-bottom: 70px;
+}
+
+div.att_check_wrap li:nth-child(6),
+div.att_check_wrap li:nth-child(7),
+div.att_check_wrap li:nth-child(8),
+div.att_check_wrap li:nth-child(9),
+div.att_check_wrap li:nth-child(10) {
+    float: left;
+    position: relative;
+    top: -620px;
+    width: 130px;
+    margin-bottom: 70px;
+}
+
+div.att_check_wrap li:nth-child(11),
+div.att_check_wrap li:nth-child(12),
+div.att_check_wrap li:nth-child(13),
+div.att_check_wrap li:nth-child(14),
+div.att_check_wrap li:nth-child(15) {
+    float: left;
+    position: relative;
+    top: -630px;
+    width: 130px;
+    margin-bottom: 70px;
+}
+
+div.att_check_wrap li:nth-child(16),
+div.att_check_wrap li:nth-child(17),
+div.att_check_wrap li:nth-child(18),
+div.att_check_wrap li:nth-child(19),
+div.att_check_wrap li:nth-child(20) {
+    float: left;
+    position: relative;
+    top: -635px;
+    width: 130px;
+    margin-bottom: 70px;
+}
+
+div.att_check_wrap img {
+    width: 70px;
+}

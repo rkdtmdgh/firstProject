@@ -1,0 +1,52 @@
+#wrap div.header_area div.header {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+
+div.header img.header_green_academy_img {
+    max-width: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+div.header ul {
+    float: right;
+    margin-right: 150px;
+    margin-top: 5px;
+}
+
+div.header ul li {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+
+}
+
+div.header ul li:nth-child(1) img.mem_info_icon {
+    max-width: 58%;
+    min-width: 58%;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+div.header ul li:nth-child(2) img.home_icon {
+    padding-top: 1px;
+    max-width: 78%;
+    min-width: 78%;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+

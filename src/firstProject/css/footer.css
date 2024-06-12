@@ -1,0 +1,45 @@
+#footercontainer {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#footercontainer div.footer_wrap {
+    background-color: #000;
+    text-align: center;
+    padding: 20px; /* 로고와 메뉴 사이의 간격을 조절 (선택적으로) */
+
+}
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.footer_logo {
+    display: inline-block; /* 로고를 인라인 블록으로 변경 */
+    vertical-align: middle; /* 로고를 수직 가운데 정렬 */
+    margin-right: 10px; /* 로고와 메뉴 사이의 간격을 조절 (선택적으로) */
+    min-width: 100px;
+    max-width: 100px;
+
+}
+
+ul.footer_menu {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* 리스트를 인라인 블록으로 변경 */
+    margin-top: 20px;
+}
+
+ul.footer_menu li {
+    display: inline-block;
+    margin: 0 10px 30px;
+}
+
+div.footer_info,
+p.footer_copy_right {
+    font-size: 0.8em;
+    color: #777;
+}
+

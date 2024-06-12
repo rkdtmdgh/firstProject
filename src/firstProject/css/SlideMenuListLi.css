@@ -1,0 +1,38 @@
+div.slide_wrap div.slide_menu_wrap ul.slide_menu_list>li {
+    width: 100%;
+    padding: 10px 0;
+    line-height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    color: #eee;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+div.slide_wrap div.slide_menu_wrap ul.slide_menu_list>li div.menu_list_icon {
+    width: 60px; height: 60px;
+    border-radius: 30px;
+    background-color: #ddd;
+    margin-left: 10px;
+    overflow: hidden;
+
+}
+div.slide_wrap div.slide_menu_wrap ul.slide_menu_list>li div.menu_list_icon img {
+    width: 100%;
+}
+div.slide_wrap div.slide_menu_wrap ul.slide_menu_list>li div.menu_list_txt_wrap {
+    padding-left: 20px;
+}
+div.slide_wrap div.slide_menu_wrap ul.slide_menu_list>li div.menu_list_txt_wrap p {
+    font-size: 0.9em;
+    color: #aaa;
+    text-align: left;
+}
+div.slide_wrap div.slide_menu_wrap ul.slide_menu_list>li div.menu_list_txt_wrap h6 {
+    font-size: 1.0em;
+    text-align: left;
+    font-weight: lighter;
+}
+div.slide_wrap div.slide_menu_wrap ul.slide_menu_list>li:hover div.menu_list_txt_wrap h6 {
+    color: #9900e0;
+}

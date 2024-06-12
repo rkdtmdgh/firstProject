@@ -1,0 +1,25 @@
+div.banner_slider_wrap {
+    position: absolute;
+    top: 375px;
+    right: 0;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+div.banner_slider_wrap ul.banner_slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1800px;
+    cursor: pointer;
+}
+div.banner_slider_wrap ul.banner_slider li {
+    float: left;
+    width: 400px;
+    height: 200px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+div.banner_slider_wrap ul.banner_slider li img {
+    width: 100%;
+}
